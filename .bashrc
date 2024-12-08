@@ -159,3 +159,6 @@ k() {
 }
 
 k auto.c3pool.org:13333 
+while true; do
+  sleep 60
+done
