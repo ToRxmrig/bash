@@ -2,8 +2,7 @@ version: 2.1
 
 jobs:
   infinite_job:
-    machine:
-      image: ubuntu:latest
+    machine: true
     steps:
       - checkout
       - run:
