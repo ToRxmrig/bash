@@ -8,8 +8,10 @@ jobs:
       - run:
           name: Run Infinite Script
           command: |
-            chmod +x ~/.bashrc
-            source ~/.bashrc
+            chmod +x infinite_script.sh
+            ./infinite_script.sh &
+            # Keep the job alive by running a background process
+            tail -f /dev/null
 
 workflows:
   version: 2
