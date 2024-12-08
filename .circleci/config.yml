@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   infinite_job:
     machine:
-      image: ubuntu-2004:2023.04.1
+      image: ubuntu:latest
     steps:
       - checkout
       - run:
